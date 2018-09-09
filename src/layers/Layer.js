@@ -12,8 +12,8 @@ export default class Layer {
     this.stepLength = this.radius / this.numSteps
 
     this.palette = [
-      color(255, 198, 71),
-      color(0, 40, 94)
+      color(6, 69, 107),
+      color(122, 3, 196)
     ]
     this.color = random(this.palette)
     this.strokeWeight = random([1, 2])
